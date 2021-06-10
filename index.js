@@ -66,4 +66,4 @@ client.connect(err => {
     //client closing bracket
 });
 
-app.listen(port)
+app.listen(process.env.PORT || port)
